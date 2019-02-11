@@ -1,5 +1,8 @@
 package com.uniovi.entities;
 
+import javax.persistence.*;
+
+@Entity
 public class Mark {
 
 	public Mark(Long id, String description, Double score) {
@@ -12,6 +15,8 @@ public class Mark {
 	public Mark() {
 	}
 
+	@Id
+	@GeneratedValue
 	private Long id;
 	private String description;
 	private Double score;
