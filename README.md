@@ -1,2 +1,2 @@
 # sdi409-lab-spring
-Primera práctica
+Primera práctica de SpringBoot
