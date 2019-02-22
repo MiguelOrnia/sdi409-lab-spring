@@ -13,6 +13,7 @@ public class Mark {
 	private User user;
 	private String description;
 	private Double score;
+	private Boolean resend = false;
 
 	public Mark(Long id, String description, Double score) {
 		super();
@@ -61,6 +62,14 @@ public class Mark {
 
 	public void setUser(User user) {
 		this.user = user;
+	}
+
+	public Boolean getResend() {
+		return resend;
+	}
+
+	public void setResend(Boolean resend) {
+		this.resend = resend;
 	}
 
 	@Override
